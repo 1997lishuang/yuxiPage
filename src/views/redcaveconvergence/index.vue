@@ -7,7 +7,7 @@
         <el-container>
           <el-aside width="200px"></el-aside>
           <el-main>
-            <el-form :model="Initconf" :rules="rules" ref="RedcaveconvergenceRedcaveconvergence" label-width="100px" class="Redcaveconvergence">
+            <el-form :model="Initconf" :rules="rules" ref="Redcaveconvergence" label-width="100px" class="Redcaveconvergence">
               <el-form-item label="监测区域" prop="region">
                 <el-select v-model="Initconf.monitorPlace" placeholder="请选择监测区域">
                   <el-option label="红岩隧洞" value="红岩隧洞"></el-option>

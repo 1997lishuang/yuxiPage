@@ -5,6 +5,21 @@ import iView from 'iview'
 import Avue from '@smallwei/avue'
 
 
+
+/*
+    解决中文
+
+ */
+// ! element-plus vue3.0
+// import element from 'element-plus'
+// import 'element-plus/lib/theme-chalk/index.css'
+// import 'dayjs/locale/zh-cn' //中文
+//
+// createApp(App).use(router).use(element, { locale }).mount('#app')
+
+
+
+
 /*
    在项目中引入 ivew 框架
 
