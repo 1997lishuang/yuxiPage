@@ -61,6 +61,7 @@ export default {
     return request({
       url: `/Upload/downWord?templatesName=${e}`,
       method: 'get',
+      // responseType: 'blob' ,// 表明返回服务器返回的数据类型
       headers: {'Content-Type': 'application/json'},  //跨域
       withCredentials: false
     })
